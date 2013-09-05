@@ -133,7 +133,7 @@ outfile = 'CMIP5_files_in_tree.csv'
 # assign constraints from arguments list
 letters = 'v:m:e:t:f:h' # the : means an argument needs to be passed after the letter
 #the = means that a value is expected after the keyword
-keywords = ['variable=', 'model=', 'experiment=', 'mip_table=', 'frequency=', 'help='] 
+keywords = ['variable=', 'model=', 'experiment=', 'mip_table=', 'frequency=', 'help'] 
 opts, extraparams = getopt.getopt(sys.argv[1:],letters,keywords) 
 # starts at the second element of argv since the first one is the script name
 # extraparams are extra arguments passed after all option/keywords are assigned
