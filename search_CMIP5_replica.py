@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Paola - paolap@utas.edu.au 23rd August 2013
 # This script produces a file listing all the CMIP5 ensembles available on dcc.nci.org.au that satisfy the given constraints.
 # The CMIP5 replica dataset is stored under 
